@@ -52,7 +52,7 @@ nav ul a li {
 
 .profile-pic {
     margin: 0;
-    border-radius: 10px;
+    border-radius: ;
     width: 250px;
 }
 
@@ -64,11 +64,15 @@ nav ul a li {
     margin: 10px 10px 10px;
 }
 
+.button:hover {
+    background-color: rgb(219, 218, 218);
+}
+
 .space-adjust {
     display: inline-block;
 }
 
-.button a {
+.button-a {
     width: 300px;
     margin-right: 5px;
     text-decoration: none;
