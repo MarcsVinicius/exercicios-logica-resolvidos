@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.box-prices {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid lightgray;
+    display: inline-block;
+}
+
+.box-prices h2,h3 {
+    color: white;
+    font-weight: 100;
+}
+
+.box-prices p {
+    margin: 10px 120px;
+    height: 50px;
+}
+
+.background-title {
+    padding: 30px;
+    background-color: black;
+}
+
+.pro-background {
+    padding: 30px;
+    background-color: rgb(58, 146, 0);
+}
+
+h3.price {
+    margin-top: 10px;
+    color: black;
+    font-size: 35px;
+}
+
+.line-bottom {
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.per-month {
+    color:  grey;
+}
+
+a.button {
+    background-color: rgb(58, 146, 0);
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.signup-background {
+    padding: 30px;
+    background-color: rgb(241, 240, 240);
+}
