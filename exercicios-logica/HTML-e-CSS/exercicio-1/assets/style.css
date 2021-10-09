@@ -10,8 +10,8 @@ body {
 
 .box-prices {
     margin-top: 50px;
-    margin-left: 20px;
-    width: 500px;
+    margin-left: 15px;
+    width: 400px;
     text-align: center;
     border: 1px solid lightgray;
     display: inline-block;
@@ -24,7 +24,7 @@ body {
 
 .box-prices p {
     margin: 10px 120px;
-    height: 50px;
+    height: 40px;
 }
 
 .background-title {
