@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin-left: 10px;
+    width: 15px;
+}
+
+.new-message-space {
+    margin-left: 0px;
+}
+
+.left-menu {
+    margin-right: 30px;
+    width: 350px;
+    box-shadow: 1px 1px 8px grey;
+    height: 900px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-menu li {
+    padding: 15px;
+}
+
+.background-items {
+    background-color: white;
+    color: black;
+}
+
+.background-items:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1); 
+    background-color: grey;
+}
+
+nav ul a li {
+    display: inline-block;
+}
+
+.mail-main {
+    margin-right: 0;
+    max-width: 850px;
+    display: inline-block;
+}
+
+.profile-pic {
+    margin: 0;
+    border-radius: ;
+    width: 250px;
+}
+
+.button {
+    display: inline-block;
+    padding: 9px;
+    background-color: whitesmoke;
+    border-radius: 1px;
+    margin: 10px 10px 10px;
+}
+
+.button:hover {
+    background-color: rgb(219, 218, 218);
+}
+
+.space-adjust {
+    display: inline-block;
+}
+
+.button-a {
+    width: 300px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.email-content {
+    border-top: 1px lightgray solid;
+}
+
+.email-content p {
+    margin-top: 15px;
+}
+
+.info-email h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.info-email h3 {
+    font-weight: 100;
+    color: gray;
+}
