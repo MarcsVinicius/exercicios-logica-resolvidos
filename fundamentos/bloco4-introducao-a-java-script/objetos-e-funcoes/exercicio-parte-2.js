@@ -11,12 +11,12 @@ function verificaPalidrome(palavra) {
   for (let i = palavra.length - 1; i > -1; i--) {
     if (palavra[count] == palavra[i]) {
       isPalidrome = true;
-      count++
+      count++;
     } else {
-      break
+      break;
     }
   }
-  return isPalidrome
+  return isPalidrome;
 }
 
 //let result = console.log(verificaPalidrome("arara"));
@@ -25,15 +25,15 @@ function verificaPalidrome(palavra) {
 Array de teste: [2, 3, 6, 7, 10, 1]; .
 Valor esperado no retorno da função: 4 .*/
 
-function indiceMaiorValor(array){
-    for(let i = 0; i < array.length; i++){
-        for(let index = 0; index < array.length; index++){
-            if(array[index] > array[i]){
-                maior = index;
-            }
-        }
+function indiceMaiorValor(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let index = 0; index < array.length; index++) {
+      if (array[index] > array[i]) {
+        maior = index;
+      }
     }
-    return maior
+  }
+  return maior;
 }
 
 //let result = console.log(indiceMaiorValor([2, 3, 6, 7, 10, 1]));
@@ -42,15 +42,15 @@ function indiceMaiorValor(array){
 Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
 Valor esperado no retorno da função: 6 . */
 
-function indiceMenorValor(array){
-    for(let i = 0; i < array.length; i++){
-        for(let index = 0; index < array.length; index++){
-            if(array[index] < array[i]){
-                menor = index;
-            }
-        }
+function indiceMenorValor(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let index = 0; index < array.length; index++) {
+      if (array[index] < array[i]) {
+        menor = index;
+      }
     }
-    return menor
+  }
+  return menor;
 }
 
 //let result = console.log(indiceMenorValor([2, 4, 6, 7, 10, 0, -3]));
@@ -59,13 +59,43 @@ function indiceMenorValor(array){
 Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .
 Valor esperado no retorno da função: Fernanda . */
 
-function indiceMenorValor(array){
-    for(let i = 0; i < array.length; i++){
-        for(let index = 0; index < array.length; index++){
-            if(array[index] > array[i]){
-                maior = array[index];
-            }
-        }
+function maiorQtdLetras(palavras) {
+  let maior;
+  for (let i = 0; i < palavras.length; i++) {
+    for (let index = 0; index < palavras.length; index++) {
+      if (palavras[index].length > palavras[i].length) {
+        maior = palavras[index];
+      }
     }
-    return maior
+  }
+  return maior;
 }
+
+//console.log(maiorQtdLetras(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+/* 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+Array de teste: [2, 3, 2, 5, 8, 2, 3]; .
+Valor esperado no retorno da função: 2 . */
+
+function moreRepeat(numeros) {
+  let maisRepete = {
+    numero: 0,
+    vezes: 0,
+  };
+  let count = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    for (let index = 0; index < numeros.length; index++) {
+      if (numeros[i] == numeros[index]) {
+        count++;
+        if (count > maisRepete["vezes"]) {
+          maisRepete["vezes"] = count;
+          maisRepete["numero"] = numeros[i];
+        }
+      }
+    }
+    count = 0;
+  }
+  return maisRepete
+}
+
+console.log(moreRepeat([2, 3, 2, 5, 8, 2, 3,3,3,3]))
