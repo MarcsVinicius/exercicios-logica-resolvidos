@@ -6,4 +6,4 @@ let space = " ";
 for(let i = 2; i >= 0; i--){
 console.log(space.repeat(teste-i)+ ast.repeat(n-teste));
 teste -= 2
-}
+} 
