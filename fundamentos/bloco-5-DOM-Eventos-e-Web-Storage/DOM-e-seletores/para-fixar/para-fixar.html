@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="parafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="parafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      document.getElementById("page-title").innerText = "Star Wars"
+      document.getElementById("second-paragraph").innerText  = "Vooom vooom(barulho do sabre de luz)"
+      document.getElementsByClassName('parafo')[1].style.color='green';
+      document.getElementById("subtitle").style.color = 'blue'
+      paragraph.style.color = 'red'
+    </script>
+  </body>
+</html>
