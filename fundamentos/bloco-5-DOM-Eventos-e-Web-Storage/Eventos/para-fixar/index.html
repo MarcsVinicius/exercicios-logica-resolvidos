@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-  <meta charset="UTF-8">
-  <title>addEventListener</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>addEventListener</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> 
-      <h1>Spotrybefy</h1>
-    </header>
     <main>
+      <header><h1>Spotrybefy</h1></header>
       <h3 id="my-spotrybefy">Meu top 3 do Spotrybefy</h3>
       <ul class="container">
-        <li id="first-li" class="tech">Aqui está a primeira tecnologia que mais gostei.</li>
+        <li id="first-li" class="tech">
+          Aqui está a primeira tecnologia que mais gostei.
+        </li>
         <li id="second-li">Aqui está a segunda tecnologia que mais gostei.</li>
         <li id="third-li">Aqui está a terceira tecnologia que mais gostei.</li>
       </ul>
-      <input type="text" id="input" placeholder="Alterar a tecnologia selecionada">      
+      <input
+        type="text"
+        id="input"
+        class="input-change"
+        placeholder="Alterar a tecnologia selecionada"
+      />
+      <div class="background-section">
+        <h3>Cor de fundo pre-definido:</h3>
+        <div id="blue" class="background animation"></div>
+        <div id="red" class="background animation"></div>
+        <div id="yellow" class="background animation"></div>
+        <div id="green" class="background animation"></div>
+        <br />
+        <h3>Custom color:</h3>
+        <input
+          type="text"
+          id="customBackgroundColor"
+          placeholder="Cor customizada(rgb,hex,name)"
+        />
+      </div>
+      <div class="font-section">
+        <h3>Cor da fonte:</h3>
+        <div id="blue" class="background animation"></div>
+        <div id="red" class="background animation"></div>
+        <div id="yellow" class="background animation"></div>
+        <div id="green" class="background animation"></div>
+        <h3>Custom color:</h3>
+        <input
+          type="text"
+          id="inputcolor"
+          class="change-fontc"
+          placeholder="Cor customizada(rgb,hex,name)"
+        />
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
