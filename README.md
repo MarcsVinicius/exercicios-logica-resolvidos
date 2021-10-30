@@ -6,7 +6,7 @@
 
 <h4> O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
   
-<h4> Os projetos estão em repositorios separados você pode encontra-los no meu <a href="https://www.marcsvinicius.github.io/">Portfólio <a><br>
+<h4> Os projetos estão em repositorios separados você pode encontra-los no meu <a href="https://marcsvinicius.github.io/">Portfólio <a><br>
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell ✅
