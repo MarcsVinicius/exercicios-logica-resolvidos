@@ -49,7 +49,7 @@
 - [ ] 5-7: _[Projeto - Adivinhe a Cor](marcsvinicius.github.io/)_
 - [ ] 5-7: _[Projeto - Carta Misteriosa](marcsvinicius.github.io/)_
 
-##### Bloco 6: HTML & CSS avançado  ⏳
+##### Bloco 6: HTML & CSS avançado  ✅
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -58,14 +58,14 @@
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Página inicial do Facebook]()_
 
-##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
+##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios ✅
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes unitários]()_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: JavaScript ES6 ✅
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
@@ -73,7 +73,7 @@
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-5: _[Projeto - Zoo functions]()_
 
-**Bloco 9 JavaScript e Testes Assíncronos**
+**Bloco 9 JavaScript e Testes Assíncronos**⏳
 - [ ] 9.1 JavaScript Assíncrono e Callbacks
 - [ ] 9.2 JavaScript Assíncrono - Fetch API e async/await
 - [ ] 9.3 Jest - Testes Assíncronos
