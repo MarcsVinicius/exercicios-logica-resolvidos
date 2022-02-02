@@ -73,13 +73,13 @@
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-5: _[Projeto - Zoo functions]()_
 
-**Bloco 9 JavaScript e Testes Assíncronos**⏳
+**Bloco 9 JavaScript e Testes Assíncronos**✅
 - [x] 9.1 JavaScript Assíncrono e Callbacks
 - [x] 9.2 JavaScript Assíncrono - Fetch API e async/await
 - [x] 9.3 Jest - Testes Assíncronos
 - [x] 9.4 Projeto - Carrinho de Compras
 
-## Desenvolvimento Front-End
+## Desenvolvimento Front-End✅
 
 **Bloco 10 Introdução à React**
 - [x] 10.1 Introdução: Front-End
@@ -88,12 +88,12 @@
 - [x] 10.2 Componentes React
 - [x] 10.3 Projeto -  Sistema Solar
 
-**Bloco 11  Componentes com Estado, Eventos e Formulários com React**
+**Bloco 11  Componentes com Estado, Eventos e Formulários com React**✅
 - [x] 11.1 Componentes com estado e eventos
 - [x] 11.2 Formulários no React
 - [x] 11.3 Projeto - Tryunfo
 
-**Bloco 12 Ciclo de Vida de Componentes e React Router**
+**Bloco 12 Ciclo de Vida de Componentes e React Router**✅
 - [x] 12.1 Ciclo de vida de componentes
 - [x] 12.2 React Router
 - [x] 12.3 Projeto - TrybeTunes
@@ -102,13 +102,13 @@
 - [x] 13.1 Metodologias Ágeis
 - [x] 13.2 Projeto - - Front-end Online Store
 
-**Bloco 14 Testes automatizados com React Testing Library**
+**Bloco 14 Testes automatizados com React Testing Library**✅
 - [x] 14.1 RTL - Primeiros passos
 - [x] 14.2 RTL - Mocks e Inputs
 - [x] 14.3 RTL - Testando React Router
 - [x] 14.4 Projeto - Testes em React
 
-**Bloco 15 Gereniamento de estado com Redux**
+**Bloco 15 Gereniamento de estado com Redux**⏳
 - [x] 15.1 Introdução ao Redux: O estado global da aplicação
 - [ ] 15.2 Usando o Redux no React
 - [ ] 15.3 Usando o Redux no React - Prática
